@@ -1,5 +1,5 @@
 FROM node:18-alpine
-WORKDIR /app
+WORKDIR /index
 COPY . .
 RUN yarn install --production
 EXPOSE 3000
